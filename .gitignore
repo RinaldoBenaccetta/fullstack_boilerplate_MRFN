@@ -1,9 +1,6 @@
 *.experiment.*
 todo.md
 
-# backend ignore
-/frontend/public/*.js
-
 # Logs
 logs
 *.log

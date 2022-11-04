@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "server-start": "npm start --prefix backend",
-    "server-dev": "npm dev --prefix backend",
-    "server-test": "npm test --prefix backend",
+    "server-start": "npm start --prefix public",
+    "server-dev": "npm dev --prefix public",
+    "server-test": "npm test --prefix public",
     "client": "npm dev --prefix frontend",
     "dev": "concurrently \"npm run server-dev\" \"npm run client\"",
     "build": "npm build --prefix frontend",
-    "install": "npm install --prefix backend && npm install --prefix frontend"
+    "setup": "npm install && npm install --prefix public && npm install --prefix frontend"
   },
   "author": "Rinaldo Benaccetta",
   "license": "MIT",

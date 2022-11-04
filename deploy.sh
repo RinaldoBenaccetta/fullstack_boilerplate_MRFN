@@ -15,8 +15,8 @@ git_production_branch=prod
 # https://stackoverflow.com/questions/26961371/switch-on-another-branch-create-if-not-exists-without-checking-if-already-exi
 git switch main
 
-# copy backend to public before dist
-#cp -r backend/"* "frontend/public/another_sub/"
+## copy public to public before dist
+#rsync -av --exclude='node_modules' --exclude='test' backend/ frontend/public/
 
 # dist
 npm run build
