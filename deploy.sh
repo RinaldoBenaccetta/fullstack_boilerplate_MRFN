@@ -9,6 +9,10 @@ git_repo = name of the app repository
 # This is the branch that will be created and that will contain the packed app for production.
 git_production_branch = prod
 
+# switch to main and reset if main branch exists, otherwise, create it.
+# https://stackoverflow.com/questions/26961371/switch-on-another-branch-create-if-not-exists-without-checking-if-already-exi
+git switch main
+
 # build
 npm run build
 
@@ -17,7 +21,6 @@ cd dist
 
 git init
 # switch to main and reset if main branch exists, otherwise, create it.
-# https://stackoverflow.com/questions/26961371/switch-on-another-branch-create-if-not-exists-without-checking-if-already-exi
 git switch -C main
 git add -A
 git commit -m 'deploy'
