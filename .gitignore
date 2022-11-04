@@ -2,7 +2,7 @@
 todo.md
 
 # backend ignore
-/frontend/src/*.js
+/frontend/public/*.js
 
 # Logs
 logs
