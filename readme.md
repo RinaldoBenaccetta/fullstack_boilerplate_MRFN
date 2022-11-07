@@ -11,6 +11,9 @@ This command will install the packages for root, frontend and backend.
 ### Folder organization
 
 - backend
+    - public *No files in this folder will be in *dist* built folder. This folder only exists so that Fastify does not emit a warning*
+    - routes
+    - test
 - frontend
     - assets
         - img
