@@ -1,6 +1,9 @@
 *.experiment.*
 todo.md
 
+# tests
+.nyc_output
+
 # Logs
 logs
 *.log

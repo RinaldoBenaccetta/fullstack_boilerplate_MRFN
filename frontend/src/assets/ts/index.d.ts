@@ -1,4 +1,4 @@
 /**
  * Add style to html.
  */
-import '../scss/styles.scss'
+import '../sass/styles.scss';
