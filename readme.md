@@ -36,6 +36,11 @@ In dev mode, call to backend server will be made via a proxy with `/api` route, 
 
 Will build the frontend to the dist/public folder. **Only frontend will be build**, for bundling all with backend, you must launch the deploy.sh script.
 
+#### start
+`npm run start`
+
+Start the server in dist folder. Will work only after deploy with deploy script afterward.
+
 #### Deploy
 `sh deploy.sh` (shell scripts are executable on Linux environment)
 

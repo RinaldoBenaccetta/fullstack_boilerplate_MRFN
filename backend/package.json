@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "server:test": "tap \"test/**/*.test.js\"",
-    "server:start": "fastify start -l info ../dist/app.js",
+    "server:start": "fastify start -l info app.js",
     "server:dev": "fastify start -w -l info -P app.js"
   },
   "author": "Rinaldo Benaccetta",
