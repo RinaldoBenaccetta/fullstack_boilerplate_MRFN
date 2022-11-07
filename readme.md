@@ -1,6 +1,8 @@
-# Fullstack boilerplate MRFN
+# Fullstack boilerplate MRFN *(is that the right name?)*
 
 ## Including MongoDB, React, Fastify and Node.js. All packed with Vite.
+
+### This boilerplate is in progress : not fully tested.
 
 ### Start
 
