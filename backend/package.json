@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "tap \"test/**/*.test.js\"",
-    "start": "fastify start -l info app.js",
-    "dev": "fastify start -w -l info -P app.js"
+    "server:test": "tap \"test/**/*.test.js\"",
+    "server:start": "fastify start -l info app.js",
+    "client:dev": "fastify start -w -l info -P app.js"
   },
   "author": "Rinaldo Benaccetta",
   "license": "MIT",

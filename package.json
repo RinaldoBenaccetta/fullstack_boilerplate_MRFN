@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "server-start": "npm start --prefix backend",
-    "server-dev": "npm run dev --prefix backend",
-    "server-test": "npm test --prefix backend",
-    "client-dev": "npm run dev --prefix frontend",
-    "client-preview": "npm run preview --prefix frontend",
-    "dev": "npm run client-dev & npm run server-dev",
-    "build": "npm run build --prefix frontend",
+    "server:start": "npm server:start --prefix backend",
+    "server:test": "npm server:test --prefix backend",
+    "client:preview": "npm run client:preview --prefix frontend",
+    "dev": "npm run client:dev --prefix backend & npm run client:dev --prefix frontend",
+    "build": "npm run client:build --prefix frontend",
     "setup": "npm install && npm install --prefix backend && npm install --prefix frontend"
   },
   "author": "Rinaldo Benaccetta",
