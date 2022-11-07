@@ -26,7 +26,7 @@ This command will install the packages for root, frontend and backend.
 Will start backend server at port 3000 and frontend server at port 3001.
 Then you can go to your app at `http://127.0.0.1:3001`
 
-In dev mode, call to backend server will be made via a proxy with `/api` route, so `http://127.0.0.1:3001/api` will call the api route in backend.
+In dev mode, call to backend server will be made via a proxy with `/api` route, so `http://127.0.0.1:3001/api` will call the api route in backend, the basic boilerplate will display 'api route'.
 
 #### Build
 `npm run build`
