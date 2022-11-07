@@ -2,11 +2,18 @@
 
 const path = require('path')
 const AutoLoad = require('@fastify/autoload')
+const fastifyStatic = require('@fastify/static')
 
 module.exports = async function (fastify, opts) {
   // Place here your custom code!
 
   // Do not touch the following lines
+
+  // This serve all from public folder.
+  fastify.register(fastifyStatic, {
+    root: path.join(__dirname, 'public'),
+    // prefix: '/public/',
+  })
 
   // This loads all plugins defined in plugins
   // those should be support plugins that are reused

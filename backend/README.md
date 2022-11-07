@@ -5,16 +5,16 @@ This project was bootstrapped with Fastify-CLI.
 
 In the project directory, you can run:
 
-### `npm run dev`
+### `npm run server:dev`
 
 To start the app in dev mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm start`
+### `npm server:start`
 
 For production mode
 
-### `npm run test`
+### `npm run server:test`
 
 Run the test cases.
 
